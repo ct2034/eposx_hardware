@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-#include <battery_state_interface/battery_state_interface.hpp>
+// #include <battery_state_interface/battery_state_interface.hpp>
 #include <dynamic_joint_limits_interface/joint_limits_interface.h>
 #include <eposx_hardware/epos_diagnostic_updater.h>
 #include <eposx_hardware/epos_manager.h>
@@ -51,7 +51,7 @@ private:
   hardware_interface::PositionActuatorInterface pos_ator_iface_;
   hardware_interface::VelocityActuatorInterface vel_ator_iface_;
   hardware_interface::EffortActuatorInterface eff_ator_iface_;
-  battery_state_interface::BatteryStateInterface bat_state_iface_;
+  // battery_state_interface::BatteryStateInterface bat_state_iface_;
   EposDiagnosticInterface epos_diag_iface_;
 
   // bridge between actuator and joint interfaces

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(eposx_hardware)
 
 find_package(catkin REQUIRED COMPONENTS
-  battery_state_interface
+  # battery_state_interface
   controller_manager
   diagnostic_updater
   eposx_library
@@ -22,7 +22,7 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES epos_library_utils epos_manager epos_hardware
   CATKIN_DEPENDS 
-  battery_state_interface 
+  # battery_state_interface 
   controller_manager 
   diagnostic_updater 
   eposx_library 

@@ -53,7 +53,7 @@ void EposHardware::initInterfaces() {
   registerInterface(&pos_ator_iface_);
   registerInterface(&vel_ator_iface_);
   registerInterface(&eff_ator_iface_);
-  registerInterface(&bat_state_iface_);
+  // registerInterface(&bat_state_iface_);
   registerInterface(&epos_diag_iface_);
   registerInterface(&pos_jnt_sat_iface_);
   registerInterface(&vel_jnt_sat_iface_);
